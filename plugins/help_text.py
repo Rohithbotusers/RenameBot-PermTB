@@ -26,7 +26,7 @@ from plugins.rename_file import rename_doc
 
 
 @Client.on_message(filters.command(["help"]))
-def help_user(bot, update):
+async def help_user(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.HELP_USER,
@@ -39,7 +39,7 @@ def help_user(bot, update):
 
 
 @Client.on_message(filters.command(["start"]))
-def send_start(bot, update):
+async def send_start(bot, update):
     # logger.info(update)
     
     bot.send_message(
