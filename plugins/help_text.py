@@ -31,8 +31,7 @@ def help_user(bot, update):
         chat_id=update.chat.id,
         text=script.HELP_USER,
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔰 Channel 🔰", url="https://t.me/ekbotz_update")],
-                          [InlineKeyboardButton(text="♐️ Share ♐️", url="https://t.me/share/url?url=t.me/Rename_EK_Bot")],
-                                                  [InlineKeyboardButton(text="🏘 Home 🏘", callback_data="START_TEXT")]]),
+                                                  [InlineKeyboardButton(text="🏘 Home 🏘", callback_data="start_data")]]),
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
@@ -46,6 +45,10 @@ def send_start(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.START_TEXT.format(update.from_user.first_name),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔱 Channel 🔱", url="https://t.me/eKbOtZ_upDaTE")],
+                                                     [InlineKeyboardButton(text="⭕️ Help ⭕️", callback_data="help_data")],
+                                                   [InlineKeyboardButton(text="⚠️ Close ⚠️", callback_data="cancel_e")]]), 
+        parse_mode="html",  
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
     )
@@ -75,7 +78,7 @@ async def rename_cb(bot, update):
     
     await bot.send_message(
         chat_id=update.chat.id,
-        text="<b>File Name</b> : <code>{}</code> \n\nSelect the required option below 😇".format(filename),
+        text="<b>File Name</b> : <code>{}</code> \n\nSelect the desired option below 😇".format(filename),
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="📛 RENAME 📛", callback_data="rename_button")],
                                                 [InlineKeyboardButton(text="❌ CANCEL ❌", callback_data="cancel_e")]]),
         parse_mode="html",
