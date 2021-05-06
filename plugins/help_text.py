@@ -39,7 +39,7 @@ async def help_user(bot, update):
 
 
 @Client.on_message(filters.command(["start"]))
-async def send_start(bot, update):
+def send_start(bot, update):
     # logger.info(update)
     
     bot.send_message(
