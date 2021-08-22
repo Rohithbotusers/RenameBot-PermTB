@@ -30,7 +30,7 @@ def help_user(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.HELP_USER,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔰 Channel 🔰", url="https://t.me/ekbotz_update")],
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🇮🇳Support Channel🇮🇳", url="https://t.me/REX_BOTZ")],
                                                   [InlineKeyboardButton(text="🏘 Home 🏘", callback_data="start_data")]]),
         parse_mode="html",
         disable_web_page_preview=True,
@@ -45,7 +45,7 @@ def send_start(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.START_TEXT.format(update.from_user.first_name),
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔱 Channel 🔱", url="https://t.me/eKbOtZ_upDaTE")],
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔱 Support Channel 🔱", url="https://t.me/REX_BOTZ")],
                                                      [InlineKeyboardButton(text="⭕️ Help ⭕️", callback_data="help_data")],
                                                     [InlineKeyboardButton(text="⚠️ Close ⚠️", callback_data="dele_te")]]), 
         parse_mode="html",  
