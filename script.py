@@ -22,4 +22,24 @@ Hit Join @REX_BOTZ 😉.</b>"""
 • Wait Few Seconds.
 • Choose appropriate option.
 • Give New Name Without Extension.</b>"""
+ABOUT_BOT_TEXT = f"""
 
+This is Permanent Files Store Bot!
+
+Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
+
+🤖 **My Name:** [Files Store Bot](https://t.me/renamerexbot)
+
+📝 **Language:** [Python3](https://www.python.org)
+
+📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+
+📡 **Hosted on:** [Heroku](https://heroku.com)
+
+🧑🏻‍💻 **Developer:** @AbirHasan2005
+
+👥 **Support Group:** [Linux Repositories](https://t.me/linux_repo)
+
+📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
+
+"""
