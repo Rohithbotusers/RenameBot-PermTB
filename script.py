@@ -22,7 +22,7 @@ Hit Join @REX_BOTZ 😉.</b>"""
 • Wait Few Seconds.
 • Choose appropriate option.
 • Give New Name Without Extension.</b>"""
-ABOUT_BOT_TEXT = f"""
+    ABOUT_BOT_TEXT = f"""
 
 This is Permanent Files Store Bot!
 
