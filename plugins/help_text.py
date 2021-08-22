@@ -46,8 +46,8 @@ def send_start(bot, update):
         chat_id=update.chat.id,
         text=script.START_TEXT.format(update.from_user.first_name),
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔱 Support Channel 🔱", url="https://t.me/REX_BOTZ")],
-                                                     [InlineKeyboardButton(text="⭕️ Help ⭕️", callback_data="help_data")],
-                                                    [InlineKeyboardButton(text="⚠️ Close ⚠️", callback_data="dele_te")]]), 
+                                                     [InlineKeyboardButton(text="⭕️ Support Group ⭕️", url="https://t.me/REX_BOT_SUPPORT")],
+                                                    [InlineKeyboardButton(text="👨‍💻 Father 👨‍💻", url="https://t.me/benwolf24")]]), 
         parse_mode="html",  
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
