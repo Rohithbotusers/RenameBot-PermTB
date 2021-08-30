@@ -3,7 +3,9 @@
   "name": "TG Rename Bot",
 
   "description": "Telegram's best Open Source Rename Bot. Create your Fork now.",
-
+  
+  "logo": "https://telegra.ph/file/d5103498b758a8160e8a7.jpg",
+  
   "keywords": [
 
     "telegram",
