@@ -1,5 +1,5 @@
 {
-  "name": "TG Rename Bot",
+  "name": "Renamer Rex Bot",
   "description": "Telegram's best Open Source Rename Bot. Create your Fork now.",
   "keywords": [
     "telegram",
@@ -9,8 +9,8 @@
     "Rename"
   ],
   "success_url": "https://github.com/spechide/AnyDLbot",
-  "website": "https://githib.com/prgofficial",
-  "repository": "https://github.com/prgofficial/RenameBot-PermTB",
+  "website": "https://pandainfotamil.blogspot.com",
+  "repository": "https://github.com/REX-BOTZ/RenameBot-PermTB",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
