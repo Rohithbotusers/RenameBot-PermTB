@@ -24,6 +24,8 @@ pip install -r requirements.txt
 # <Create config.py appropriately>
 python3 -m tobrot
 ```
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?)
+
 
 
 #### For Queries and support, contact [prgofficial](https://telegram.dog/prgofficial)
