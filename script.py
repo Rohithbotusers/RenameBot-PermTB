@@ -1,16 +1,16 @@
 class script(object):
     START_TEXT = """ Hey Dear {},
-<b>I Am Simple Tg File Renamer Bot With Permanent Thumbnail Support & Auto Detection Of Files.
+<b>I Am Simple Valt aoi  Renamer Bot With Permanent Thumbnail Support & Auto Detection Of Files.
 
-Hit Join @REX_BOTZ 😉.</b>"""
+ Join @PigasusUpdates </b>"""
 
 
     RENAME_403_ERR = "What Are You Doing? You are Banned"
-    UPGRADE_TEXT = "<b>CONTACT @REX_BOT_SUPPORT</b>"
-    ABOUT_BOT_TEXT = "<b>This Bot Rename Any Type of File. Show Your Support By Joining Our Channel @REX_BOTZ ⚡</b>"
-    DOWNLOAD_START = "Give Me Some Time 🙏..."
-    UPLOAD_START = "Uploading Started To Tg 😝..."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thanks for Using Me. @REX_BOTZ .**"
+    UPGRADE_TEXT = "<b>CONTACT @Pigasussupport</b>"
+    ABOUT_BOT_TEXT = "<b>This Bot Rename Any Type of File. Show Your Support By Joining Our Channel @PigasusUpdates</b>"
+    DOWNLOAD_START = "Give Me Some Time..."
+    UPLOAD_START = "Uploading Started To Tg..."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thanks for Using Me. @VALTAOITHEBOT .**"
     SAVED_THUMB = "Permanent Thumbnail Saved Successfully ✅. "
     DEL_THUMB = "Thumbnail cleared succesfully!"
     NO_THUMB = "No thumbnails found!😐"
